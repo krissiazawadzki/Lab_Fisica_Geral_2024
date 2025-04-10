@@ -1,0 +1,10 @@
+language: generic
+install:
+  - pip2 install pytest pytest-cov --user
+  - pip install tox pytest pytest-cov codecov --user
+script:
+  - tox
+  - py.test --cov-config=.coveragerc --cov-report=term --cov ./LabIFSC
+cache: pip
+after_success:
+  - codecov

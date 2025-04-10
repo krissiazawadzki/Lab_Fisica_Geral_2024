@@ -1,0 +1,34 @@
+# Testing
+
+.coverage
+coverage.xml
+
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.pyc
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
+.glide/
+.tox/
+__pycache__/
+
+*.pyc
+.cache
+test.py
+demo.py
+.pypirc
+dist/
+build/
+sdist/
+
+.pytest_cache/
+LabIFSC.egg-info/
